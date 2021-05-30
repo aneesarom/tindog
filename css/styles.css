@@ -1,0 +1,223 @@
+body {
+  font-family: Montserrat;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.colored-section{
+  color: white;
+  background-color: #ff4c68;
+}
+
+/* nav-section */
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: Fredoka One;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding-right: 16px;
+  text-align: left;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: white;
+  font-weight: 600;
+}
+
+/* title-section */
+
+.title-div{
+  margin: 72px auto 16px;
+  text-align: left;
+}
+
+.big-heading {
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.btn-div{
+  margin: 40px 16px 40px auto;
+}
+
+.btn-dwnld{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.phone {
+  transform: rotate(20deg);
+  width:60%;
+  padding-top: 20px;
+  position: absolute;
+  right:30%;
+}
+
+@media (max-width: 1028px){
+  .phone{
+    position: static;
+    transform: rotate(360deg);
+    text-align: center;
+  }
+  .title-div{
+    text-align: center;
+  }
+}
+
+/* features-section */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-row {
+  padding: 30px 0 30px;
+}
+
+.features-para {
+  width: 70%;
+  margin: auto;
+}
+
+.fav-features {
+  color: #ef8172;
+  padding-bottom: 16px;
+}
+
+.fav-features:hover {
+  color: #ff4c68;
+}
+
+/* testimonial-section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-div {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 0 16px 30px;
+}
+
+/* pricing-section */
+
+#pricing {
+  padding: 7% 15%;
+  color:#564a4a;
+}
+
+.pricing-title{
+  font-size: 3rem;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+.button-card{
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+.button-card:hover{
+  background-color: #ef8172;
+  border-color: #ef8172;
+  font-weight: bold;
+}
+
+.button-card-active{
+  background-color: #ffff;
+  border-color: #ef8172;
+  color: #ef8172;
+}
+
+.button-card-active:hover{
+  background-color: #ef8172;
+  border-color: #ef8172;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.card-header{
+  background-color: #ef8172;
+  color: #ffff;
+  padding-bottom: 6px;
+}
+
+
+/* cta section */
+
+#cta{
+  padding: 3% 15%;
+  background-color:#ef8172;
+}
+
+.cta-title{
+  font-weight: 900;
+  font-size:3rem;
+  padding-top: 40px;
+}
+
+/* footer-section */
+
+#footer{
+  padding: 3% 15%;
+}
+
+.footer-div{
+  margin-bottom: 20px;
+}
+
+.social-links{
+  padding-right: 16px;
+}
+
+.social-links:hover{
+  color: #ff4c68;
+}
